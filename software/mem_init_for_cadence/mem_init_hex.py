@@ -28,8 +28,8 @@ def generate_forces(input_path, output_path=None):
 
 def main():
     print("=== generate_forces.py ===")
-    inp = "/home/oliver/picorv32_software/hex/mem_init.v"
-    out = "/home/oliver/picorv32_software/hex/force.v"
+    inp = "../=mem_init.v"
+    out = "./force.v"
     if out == '':
         out = None
 
